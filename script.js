@@ -1,6 +1,6 @@
 // 🔥 SUPABASE CONFIG
-const supabaseUrl = "https://cqzlitjlqrbxyrplktba.supabase.co/rest/v1/";
-const supabaseKey = "sb_publishable__osipOqdVQh-SLaMoaU02w_LjffuBrM";
+const supabaseUrl = "https://cqzlitjlqrbxyrplktba.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxemxpdGpscXJieHlycGxrdGJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc0MDUyMjEsImV4cCI6MjA5Mjk4MTIyMX0.2_AP01Ma0bG7xRHMxCmjgAZ9zyrVxDZww4ztPFuJSTc";
 
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
