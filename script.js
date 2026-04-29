@@ -9,9 +9,10 @@ async function checkIn() {
 
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
+  const msg = document.getElementById("msg");
 
   if (!name || !email) {
-    document.getElementById("msg").innerText = "Sila isi nama & email";
+    msg.innerText = "Sila isi nama & email";
     return;
   }
 
@@ -29,8 +30,8 @@ async function checkIn() {
 
   if (error) {
     console.log(error);
-    document.getElementById("msg").innerText = "Error: " + error.message;
+    msg.innerText = "Error: " + error.message;
   } else {
-    document.getElementById("msg").innerText = "Check In Success!";
+    msg.innerText = "Check In Success!";
   }
 }
