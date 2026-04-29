@@ -1,4 +1,4 @@
-// 🔥 CONNECT SUPABASE
+// 🔥 SUPABASE CONFIG
 const supabaseUrl = "https://cqzlitjlqrbxyrplktba.supabase.co/rest/v1/";
 const supabaseKey = "sb_publishable__osipOqdVQh-SLaMoaU02w_LjffuBrM";
 
@@ -11,7 +11,7 @@ async function checkIn() {
   const email = document.getElementById("email").value;
 
   if (!name || !email) {
-    alert("Sila isi nama & email");
+    document.getElementById("msg").innerText = "Sila isi nama & email";
     return;
   }
 
